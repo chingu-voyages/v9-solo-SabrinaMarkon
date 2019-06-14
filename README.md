@@ -12,3 +12,5 @@ Webpack
 SASS
 Material-UI
 Babel
+
+Fonts - Open Sans, Playfair Display (or Georgia)
