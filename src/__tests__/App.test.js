@@ -32,6 +32,7 @@ describe('Testing main App component', () => {
     expect(wrapper.exists()).toBe(true);
   }); 
 
+  
   it('should render a child Footer component', () => {
     const wrapper = shallow(<Footer />);
     expect(wrapper.exists()).toBe(true);
