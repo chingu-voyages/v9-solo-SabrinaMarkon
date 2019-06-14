@@ -1,6 +1,8 @@
 # v9-solo-SabrinaMarkon
 Hire-A-Team To Build Your Dream! | Voyage-9 | https://chingu.io/
 
+Connecting remote development teams with employers!
+
 # Stack (MERN)
 React
 Redux
