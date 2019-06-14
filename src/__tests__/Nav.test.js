@@ -5,15 +5,21 @@ import { shallow } from 'enzyme';
 // components
 import Nav from '../components/Nav';
 
-function setup() {
-  const wrapper = shallow(<App />);
-  return wrapper;
-}
+let wrapper;
+
+beforeEach(() => {
+  wrapper = shallow(<Nav />);
+});
 
 describe('Testing Nav component', () => {
   it('renders the navigation', () => {
     const nav = document.createElement('nav');
     ReactDOM.render(<Nav />, nav);
     ReactDOM.unmountComponentAtNode(nav);
+  });
+
+  it('it should match the Nav snapshot', () => {
+    // If snapshot exists, compare. If not, create the snapshot.
+    expect(wrapper).toMatchSnapshot();
   });
 });
