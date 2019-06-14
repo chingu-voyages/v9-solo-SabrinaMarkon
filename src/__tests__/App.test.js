@@ -38,4 +38,10 @@ describe('Testing main App component', () => {
     expect(wrapper.exists()).toBe(true);
   });
 
+  it('it should match the App snapshot', () => {
+    const wrapper = setup();
+    // If snapshot exists, compare. If not, create the snapshot.
+    expect(wrapper).toMatchSnapshot();
+  });
+
 });
