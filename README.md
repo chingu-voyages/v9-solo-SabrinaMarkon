@@ -13,4 +13,4 @@ SASS
 Material-UI
 Babel
 
-Fonts - Open Sans, Playfair Display (or Georgia)
+Fonts - Open Sans or Roboto, Playfair Display or Georgia
