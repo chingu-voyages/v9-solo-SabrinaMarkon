@@ -4,6 +4,10 @@ import { shallow } from 'enzyme';
 
 // components
 import App from '../containers/App';
+import Nav from '../components/Nav';
+import Header from '../components/Header';
+
+import Footer from '../components/Footer';
 
 function setup() {
   const wrapper = shallow(<App />);
@@ -18,7 +22,19 @@ describe('Testing main App component', () => {
     ReactDOM.unmountComponentAtNode(fragment);
   });
 
+  it('should render a child Nav component', () => {
+    const wrapper = shallow(<Nav />);
+    expect(wrapper.exists()).toBe(true);
+  });
 
+  it('should render a child Header component', () => {
+    const wrapper = shallow(<Header />);
+    expect(wrapper.exists()).toBe(true);
+  }); 
 
+  it('should render a child Footer component', () => {
+    const wrapper = shallow(<Footer />);
+    expect(wrapper.exists()).toBe(true);
+  });
 
 });
