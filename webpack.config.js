@@ -1,10 +1,12 @@
+const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 const config = {
   mode: 'development',     // set mode option, 'development' or 'production'
   entry: [
     './src/index.js'
   ],
   output: {
-    path: path.resolve(__dirname,'dist'),
+    path: path.resolve(__dirname,'build'),
     filename: 'bundle.js'
   },
   devServer: {
