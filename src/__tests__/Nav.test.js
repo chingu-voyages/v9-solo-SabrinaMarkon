@@ -18,8 +18,16 @@ describe('Testing Nav component', () => {
     ReactDOM.unmountComponentAtNode(nav);
   });
 
-  it('should render 1 child Material-UI AppBar component', () => {
-    expect(wrapper.find('AppBar')).toHaveLength(1);
+  it('should render 1 Router element', () => {
+    expect(wrapper.find('Router')).toHaveLength(1);
+  });
+
+  it('should render 5 navbar React Router NavLinks', () => {
+    expect(wrapper.find('NavLink')).toHaveLength(5);
+  });
+
+  it('should render 5 React Router Route elements', () => {
+    expect(wrapper.find('Route')).toHaveLength(5);
   });
 
   it('it should match the Nav snapshot', () => {
