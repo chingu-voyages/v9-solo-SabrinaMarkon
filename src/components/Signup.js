@@ -3,8 +3,10 @@ import React, { Component } from 'react';
 export default class Signup extends Component {
 
   render() {
-    <div>
-
-    </div>
+    return (
+      <div>
+        Signup
+      </div>
+    )
   }
 }

@@ -1,15 +1,9 @@
 import React from 'react';
-import { Route, NavLink, BrowserRouter as Router, Switch } from 'react-router-dom';
-import App from '../containers/App';
-import HowItWorks from '../components/HowItWorks';
-import Signup from '../components/Signup';
-import Login from '../components/Login';
-import PostJob from '../components/PostJob';
+import { NavLink, BrowserRouter as Router } from 'react-router-dom';
 
 export default function Nav() {
 
   return (
-    <Router>
       <nav>
           <ul>
             <li>
@@ -28,8 +22,6 @@ export default function Nav() {
               <NavLink activeClassName="active" to="/postjob">Post a Job</NavLink>
             </li>
           </ul>
-
       </nav>
-    </Router>
   )
 }

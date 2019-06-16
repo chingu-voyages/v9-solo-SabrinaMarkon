@@ -22,13 +22,13 @@ describe('Testing Nav component', () => {
     expect(wrapper.find('Router')).toHaveLength(1);
   });
 
-  it('should render 5 navbar React Router NavLinks', () => {
+  it('should render 5 NavLink elements', () => {
     expect(wrapper.find('NavLink')).toHaveLength(5);
   });
 
-  it('should render 5 React Router Route elements', () => {
-    expect(wrapper.find('Route')).toHaveLength(5);
-  });
+  // it('should render 5 Route elements', () => {
+  //   expect(wrapper.find('Route')).toHaveLength(5);
+  // });
 
   it('it should match the Nav snapshot', () => {
     // If snapshot exists, compare. If not, create the snapshot.
