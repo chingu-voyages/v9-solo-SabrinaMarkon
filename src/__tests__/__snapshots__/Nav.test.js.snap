@@ -1,3 +1,19 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Testing Nav component it should match the Nav snapshot 1`] = `<nav />`;
+exports[`Testing Nav component it should match the Nav snapshot 1`] = `
+<nav>
+  <WithStyles(ForwardRef(AppBar))
+    color="primary"
+    position="static"
+  >
+    <WithStyles(ForwardRef(Toolbar))>
+      <WithStyles(ForwardRef(Typography))
+        color="inherit"
+        variant="h1"
+      >
+        Hire-A-Team
+      </WithStyles(ForwardRef(Typography))>
+    </WithStyles(ForwardRef(Toolbar))>
+  </WithStyles(ForwardRef(AppBar))>
+</nav>
+`;

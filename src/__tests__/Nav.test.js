@@ -18,6 +18,10 @@ describe('Testing Nav component', () => {
     ReactDOM.unmountComponentAtNode(nav);
   });
 
+  it('should render 1 child Material-UI AppBar component', () => {
+    expect(wrapper.find('AppBar')).toHaveLength(1);
+  });
+
   it('it should match the Nav snapshot', () => {
     // If snapshot exists, compare. If not, create the snapshot.
     expect(wrapper).toMatchSnapshot();

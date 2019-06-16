@@ -12,7 +12,6 @@ Enzyme
 Express
 Webpack
 SASS
-Material-UI
 Babel
 
 Fonts - Open Sans or Roboto, Playfair Display or Georgia

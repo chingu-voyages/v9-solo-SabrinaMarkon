@@ -4,7 +4,7 @@ export default function Nav() {
 
   return (
     <nav>
-
+        Hello World
     </nav>
   )
 }

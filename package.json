@@ -1,7 +1,7 @@
 {
   "name": "react-hire-a-team",
   "version": "1.0.0",
-  "description": "Add-project-description-here | Voyage-9 | https://chingu.io/",
+  "description": "Hire-A-Team: Connecting remote development teams with employers! | Voyage-9 | https://chingu.io/",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development",
@@ -49,8 +49,6 @@
     "webpack-dev-server": "^3.7.1"
   },
   "dependencies": {
-    "@material-ui/core": "^4.1.1",
-    "@material-ui/icons": "^4.2.0",
     "axios": "^0.19.0",
     "css-loader": "^3.0.0",
     "express": "^4.17.1",
