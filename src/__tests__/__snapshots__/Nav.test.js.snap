@@ -12,7 +12,7 @@ exports[`Testing Nav component it should match the Nav snapshot 1`] = `
         "entries": Array [
           Object {
             "hash": "",
-            "key": "21sx18",
+            "key": "5nv0nl",
             "pathname": "/",
             "search": "",
             "state": undefined,
@@ -26,7 +26,7 @@ exports[`Testing Nav component it should match the Nav snapshot 1`] = `
         "listen": [Function],
         "location": Object {
           "hash": "",
-          "key": "21sx18",
+          "key": "5nv0nl",
           "pathname": "/",
           "search": "",
           "state": undefined,

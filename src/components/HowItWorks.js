@@ -4,7 +4,7 @@ export default class HowItWorks extends Component {
 
   render() {
     return (
-      <div>
+      <div className="container_inner">
         How it Works
       </div>
     )

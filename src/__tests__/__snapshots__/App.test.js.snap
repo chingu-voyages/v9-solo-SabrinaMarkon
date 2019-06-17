@@ -2,7 +2,9 @@
 
 exports[`Testing main App component rendering it should match the App snapshot 1`] = `
 <BrowserRouter>
-  <div>
+  <div
+    className="container"
+  >
     <Nav />
     <Header />
     <Switch>

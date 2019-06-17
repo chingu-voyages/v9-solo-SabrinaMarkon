@@ -13,7 +13,7 @@ beforeEach(() => {
 });
 
 describe('Testing Nav component', () => {
-  it('renders the navigation', () => {
+  it('renders the navigation menu', () => {
     const nav = document.createElement('nav');
     ReactDOM.render(wrapper, nav);
     ReactDOM.unmountComponentAtNode(nav);
@@ -49,5 +49,5 @@ describe('Testing Nav component', () => {
     // If snapshot exists, compare. If not, create the snapshot.
     expect(wrapper).toMatchSnapshot();
   });
-  
+
 });

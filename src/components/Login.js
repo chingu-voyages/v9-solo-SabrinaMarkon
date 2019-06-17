@@ -4,7 +4,7 @@ export default class Login extends Component {
 
   render() {
     return (
-      <div>
+      <div className="container_inner">
         Login
       </div>
     )

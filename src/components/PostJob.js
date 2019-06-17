@@ -4,7 +4,7 @@ export default class PostJob extends Component {
 
   render() {
     return (
-      <div>
+      <div className="container_inner">
         Post Job
       </div>
     )

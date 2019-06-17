@@ -4,7 +4,7 @@ export default class Signup extends Component {
 
   render() {
     return (
-      <div>
+      <div className="container_inner">
         Signup
       </div>
     )
