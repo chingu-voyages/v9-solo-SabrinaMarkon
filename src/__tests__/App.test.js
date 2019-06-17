@@ -4,6 +4,7 @@ import { shallow } from 'enzyme';
 
 // components
 import App from '../containers/App';
+import Nav from '../containers/Nav';
 
 let wrapper;
 
@@ -19,7 +20,9 @@ describe('Testing main App component rendering', () => {
   });
 
   it('should render 1 child Nav component', () => {
-    expect(wrapper.find('Nav')).toHaveLength(1);
+    // one way to check that a component is rendered:containsMatchingElement
+    expect(wrapper.containsMatchingElement(<Nav />)).toEqual(true);
+    // expect(wrapper.find('Nav')).toHaveLength(1);
   });
 
   it('should render 1 child Header component', () => {

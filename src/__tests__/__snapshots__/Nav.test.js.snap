@@ -1,171 +1,180 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Testing Nav component it should match the Nav snapshot 1`] = `
-<App>
-  <BrowserRouter>
-    <Router
-      history={
-        Object {
-          "action": "POP",
-          "block": [Function],
-          "createHref": [Function],
-          "go": [Function],
-          "goBack": [Function],
-          "goForward": [Function],
-          "length": 1,
-          "listen": [Function],
-          "location": Object {
+<MemoryRouter>
+  <Router
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "canGo": [Function],
+        "createHref": [Function],
+        "entries": Array [
+          Object {
             "hash": "",
+            "key": "21sx18",
             "pathname": "/",
             "search": "",
             "state": undefined,
           },
-          "push": [Function],
-          "replace": [Function],
-        }
+        ],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "index": 0,
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "key": "21sx18",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
       }
-    >
-      <div>
-        <Nav>
-          <nav>
-            <ul>
-              <li>
-                <NavLink
-                  activeClassName="active"
-                  exact={true}
-                  to="/"
+    }
+  >
+    <Nav>
+      <nav
+        className="nav"
+      >
+        <ul>
+          <li
+            className="nav__item"
+            key="0"
+          >
+            <NavLink
+              activeClassName="active"
+              className="nav__link"
+              exact={true}
+              to="/"
+            >
+              <Link
+                aria-current="page"
+                className="nav__link active"
+                style={Object {}}
+                to="/"
+              >
+                <a
+                  aria-current="page"
+                  className="nav__link active"
+                  href="/"
+                  onClick={[Function]}
+                  style={Object {}}
                 >
-                  <Link
-                    aria-current="page"
-                    className="active"
-                    style={Object {}}
-                    to="/"
-                  >
-                    <a
-                      aria-current="page"
-                      className="active"
-                      href="/"
-                      onClick={[Function]}
-                      style={Object {}}
-                    >
-                      Home
-                    </a>
-                  </Link>
-                </NavLink>
-              </li>
-              <li>
-                <NavLink
-                  activeClassName="active"
-                  to="/howitworks"
+                  Home
+                </a>
+              </Link>
+            </NavLink>
+          </li>
+          <li
+            className="nav__item"
+            key="1"
+          >
+            <NavLink
+              activeClassName="active"
+              className="nav__link"
+              exact={true}
+              to="/howitworks"
+            >
+              <Link
+                aria-current={null}
+                className="nav__link"
+                to="/howitworks"
+              >
+                <a
+                  aria-current={null}
+                  className="nav__link"
+                  href="/howitworks"
+                  onClick={[Function]}
                 >
-                  <Link
-                    aria-current={null}
-                    to="/howitworks"
-                  >
-                    <a
-                      aria-current={null}
-                      href="/howitworks"
-                      onClick={[Function]}
-                    >
-                      How It Works
-                    </a>
-                  </Link>
-                </NavLink>
-              </li>
-              <li>
-                <NavLink
-                  activeClassName="active"
-                  to="/signup"
+                  How It Works
+                </a>
+              </Link>
+            </NavLink>
+          </li>
+          <li
+            className="nav__item"
+            key="2"
+          >
+            <NavLink
+              activeClassName="active"
+              className="nav__link"
+              exact={true}
+              to="/signup"
+            >
+              <Link
+                aria-current={null}
+                className="nav__link"
+                to="/signup"
+              >
+                <a
+                  aria-current={null}
+                  className="nav__link"
+                  href="/signup"
+                  onClick={[Function]}
                 >
-                  <Link
-                    aria-current={null}
-                    to="/signup"
-                  >
-                    <a
-                      aria-current={null}
-                      href="/signup"
-                      onClick={[Function]}
-                    >
-                      Signup
-                    </a>
-                  </Link>
-                </NavLink>
-              </li>
-              <li>
-                <NavLink
-                  activeClassName="active"
-                  to="/login"
+                  Signup
+                </a>
+              </Link>
+            </NavLink>
+          </li>
+          <li
+            className="nav__item"
+            key="3"
+          >
+            <NavLink
+              activeClassName="active"
+              className="nav__link"
+              exact={true}
+              to="/login"
+            >
+              <Link
+                aria-current={null}
+                className="nav__link"
+                to="/login"
+              >
+                <a
+                  aria-current={null}
+                  className="nav__link"
+                  href="/login"
+                  onClick={[Function]}
                 >
-                  <Link
-                    aria-current={null}
-                    to="/login"
-                  >
-                    <a
-                      aria-current={null}
-                      href="/login"
-                      onClick={[Function]}
-                    >
-                      Login
-                    </a>
-                  </Link>
-                </NavLink>
-              </li>
-              <li>
-                <NavLink
-                  activeClassName="active"
-                  to="/postjob"
+                  Login
+                </a>
+              </Link>
+            </NavLink>
+          </li>
+          <li
+            className="nav__item"
+            key="4"
+          >
+            <NavLink
+              activeClassName="active"
+              className="nav__link"
+              to="/postjob"
+            >
+              <Link
+                aria-current={null}
+                className="nav__link"
+                to="/postjob"
+              >
+                <a
+                  aria-current={null}
+                  className="nav__link"
+                  href="/postjob"
+                  onClick={[Function]}
                 >
-                  <Link
-                    aria-current={null}
-                    to="/postjob"
-                  >
-                    <a
-                      aria-current={null}
-                      href="/postjob"
-                      onClick={[Function]}
-                    >
-                      Post a Job
-                    </a>
-                  </Link>
-                </NavLink>
-              </li>
-            </ul>
-          </nav>
-        </Nav>
-        <Header>
-          <header>
-            Hire-A-Team
-          </header>
-        </Header>
-        <Switch>
-          <Route
-            computedMatch={
-              Object {
-                "isExact": true,
-                "params": Object {},
-                "path": "/",
-                "url": "/",
-              }
-            }
-            exact={true}
-            location={
-              Object {
-                "hash": "",
-                "pathname": "/",
-                "search": "",
-                "state": undefined,
-              }
-            }
-            path="/"
-          />
-        </Switch>
-        <Footer>
-          <footer>
-            Made with Love 4 U by Sabrina
-          </footer>
-        </Footer>
-      </div>
-    </Router>
-  </BrowserRouter>
-</App>
+                  Post a Job!
+                </a>
+              </Link>
+            </NavLink>
+          </li>
+        </ul>
+      </nav>
+    </Nav>
+  </Router>
+</MemoryRouter>
 `;

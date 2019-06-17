@@ -4,10 +4,11 @@ import HowItWorks from '../components/HowItWorks';
 import Signup from '../components/Signup';
 import Login from '../components/Login';
 import PostJob from '../components/PostJob';
-import Nav from '../components/Nav';
+import NotFound from '../components/NotFound';
+
+import Nav from '../containers/Nav';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
-import NotFound from '../components/NotFound';
 
 export default class App extends Component {
 
