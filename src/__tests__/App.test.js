@@ -26,7 +26,14 @@ describe('Testing main App component rendering', () => {
     expect(wrapper.find('Header')).toHaveLength(1);
   }); 
 
+  it('should render 1 BrowserRouter element', () => {
+    expect(wrapper.find('BrowserRouter')).toHaveLength(1);
+  });
   
+  it('should render 6 Route elements', () => {
+    expect(wrapper.find('Route')).toHaveLength(6);
+  });
+
   it('should render 1 child Footer component', () => {
     expect(wrapper.find('Footer')).toHaveLength(1);
   });

@@ -5,6 +5,7 @@ Connecting remote development teams with employers!
 
 # Stack (MERN)
 React
+React Router
 Redux
 MongoDB
 Jest
@@ -13,5 +14,8 @@ Express
 Webpack
 SASS
 Babel
-
 Fonts - Open Sans or Roboto, Playfair Display or Georgia
+
+# Main Learning Goal
+Strengthen Testing Skills
+

@@ -7,10 +7,12 @@ const config = {
   ],
   output: {
     path: path.resolve(__dirname,'build'),
-    filename: 'bundle.js'
+    filename: 'bundle.js',
+    publicPath: '/'
   },
   devServer: {
-    contentBase: './build'
+    contentBase: './build',
+    historyApiFallback: true,
   },
   module: {
     rules: [
@@ -40,14 +42,6 @@ const config = {
         test: /\.(mp4|webm|ogv|png|svg|jpg|gif)$/,
         use: [
           'file-loader'
-        ]
-      },
-      {
-        test: /\.scss$/,
-        use: [
-          'style-loader',
-          'css-loader',
-          'sass-loader'
         ]
       }
     ]
