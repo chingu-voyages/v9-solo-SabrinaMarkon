@@ -15,7 +15,6 @@ export default class App extends Component {
   render() {
     return (
         <BrowserRouter>
-          <div className="container">
             <Nav />
             <Header />
             <Switch>
@@ -27,7 +26,6 @@ export default class App extends Component {
               <Route component={NotFound} />
             </Switch>
             <Footer />
-          </div>
         </BrowserRouter>
     )
   }

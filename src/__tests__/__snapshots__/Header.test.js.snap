@@ -1,7 +1,35 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Testing Header component it should match the Header snapshot 1`] = `
-<header>
-  Hire-A-Team
-</header>
+<div
+  id="section1"
+>
+  <header
+    class="intro-section"
+    id="header-area"
+  >
+    <div
+      class="container"
+    >
+      <div
+        class="row"
+      >
+        <div
+          class="col-sm-12 text-center"
+        >
+          <div
+            class="header-content"
+          >
+            <h1>
+              Hire-A-Team
+            </h1>
+            <h4>
+              to build your dream!
+            </h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+</div>
 `;

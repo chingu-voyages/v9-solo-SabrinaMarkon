@@ -12,7 +12,7 @@ exports[`Testing Nav component it should match the Nav snapshot 1`] = `
         "entries": Array [
           Object {
             "hash": "",
-            "key": "7elljx",
+            "key": "2bxbie",
             "pathname": "/",
             "search": "",
             "state": undefined,
@@ -26,7 +26,7 @@ exports[`Testing Nav component it should match the Nav snapshot 1`] = `
         "listen": [Function],
         "location": Object {
           "hash": "",
-          "key": "7elljx",
+          "key": "2bxbie",
           "pathname": "/",
           "search": "",
           "state": undefined,
@@ -38,141 +38,170 @@ exports[`Testing Nav component it should match the Nav snapshot 1`] = `
   >
     <Nav>
       <nav
-        className="nav"
+        className="navbar navbar-inverse navbar-fixed-top"
       >
-        <ul>
-          <li
-            className="nav__item"
-            key="nav-ss0"
+        <div
+          className="container"
+        >
+          <div
+            className="navbar-header"
           >
-            <NavLink
-              activeClassName="active"
-              className="nav__link"
-              exact={true}
-              to="/"
+            <button
+              className="navbar-toggle"
+              type="button"
             >
-              <Link
-                aria-current="page"
-                className="nav__link active"
-                style={Object {}}
-                to="/"
-              >
-                <a
-                  aria-current="page"
-                  className="nav__link active"
-                  href="/"
-                  onClick={[Function]}
-                  style={Object {}}
-                >
-                  Home
-                </a>
-              </Link>
-            </NavLink>
-          </li>
-          <li
-            className="nav__item"
-            key="nav-1"
+              <span
+                className="icon-bar"
+              />
+              <span
+                className="icon-bar"
+              />
+              <span
+                className="icon-bar"
+              />
+            </button>
+          </div>
+          <div
+            className="single-page-nav sticky-wrapper"
+            id="tmNavbar"
           >
-            <NavLink
-              activeClassName="active"
-              className="nav__link"
-              exact={true}
-              to="/howitworks"
+            <ul
+              className="nav navbar-nav"
             >
-              <Link
-                aria-current={null}
-                className="nav__link"
-                to="/howitworks"
+              <li
+                className="nav__item"
+                key="nav-0"
               >
-                <a
-                  aria-current={null}
+                <NavLink
+                  activeClassName="active"
                   className="nav__link"
-                  href="/howitworks"
-                  onClick={[Function]}
+                  exact={true}
+                  to="/"
                 >
-                  How It Works
-                </a>
-              </Link>
-            </NavLink>
-          </li>
-          <li
-            className="nav__item"
-            key="nav-2"
-          >
-            <NavLink
-              activeClassName="active"
-              className="nav__link"
-              exact={true}
-              to="/signup"
-            >
-              <Link
-                aria-current={null}
-                className="nav__link"
-                to="/signup"
+                  <Link
+                    aria-current="page"
+                    className="nav__link active"
+                    style={Object {}}
+                    to="/"
+                  >
+                    <a
+                      aria-current="page"
+                      className="nav__link active"
+                      href="/"
+                      onClick={[Function]}
+                      style={Object {}}
+                    >
+                      Home
+                    </a>
+                  </Link>
+                </NavLink>
+              </li>
+              <li
+                className="nav__item"
+                key="nav-1"
               >
-                <a
-                  aria-current={null}
+                <NavLink
+                  activeClassName="active"
                   className="nav__link"
-                  href="/signup"
-                  onClick={[Function]}
+                  exact={true}
+                  to="/howitworks"
                 >
-                  Signup
-                </a>
-              </Link>
-            </NavLink>
-          </li>
-          <li
-            className="nav__item"
-            key="nav-3"
-          >
-            <NavLink
-              activeClassName="active"
-              className="nav__link"
-              exact={true}
-              to="/login"
-            >
-              <Link
-                aria-current={null}
-                className="nav__link"
-                to="/login"
+                  <Link
+                    aria-current={null}
+                    className="nav__link"
+                    to="/howitworks"
+                  >
+                    <a
+                      aria-current={null}
+                      className="nav__link"
+                      href="/howitworks"
+                      onClick={[Function]}
+                    >
+                      How It Works
+                    </a>
+                  </Link>
+                </NavLink>
+              </li>
+              <li
+                className="nav__item"
+                key="nav-2"
               >
-                <a
-                  aria-current={null}
+                <NavLink
+                  activeClassName="active"
                   className="nav__link"
-                  href="/login"
-                  onClick={[Function]}
+                  exact={true}
+                  to="/signup"
                 >
-                  Login
-                </a>
-              </Link>
-            </NavLink>
-          </li>
-          <li
-            className="nav__item"
-            key="nav-4"
-          >
-            <NavLink
-              activeClassName="active"
-              className="nav__link"
-              to="/postjob"
-            >
-              <Link
-                aria-current={null}
-                className="nav__link"
-                to="/postjob"
+                  <Link
+                    aria-current={null}
+                    className="nav__link"
+                    to="/signup"
+                  >
+                    <a
+                      aria-current={null}
+                      className="nav__link"
+                      href="/signup"
+                      onClick={[Function]}
+                    >
+                      Signup
+                    </a>
+                  </Link>
+                </NavLink>
+              </li>
+              <li
+                className="nav__item"
+                key="nav-3"
               >
-                <a
-                  aria-current={null}
+                <NavLink
+                  activeClassName="active"
                   className="nav__link"
-                  href="/postjob"
-                  onClick={[Function]}
+                  exact={true}
+                  to="/login"
                 >
-                  Post a Job!
-                </a>
-              </Link>
-            </NavLink>
-          </li>
-        </ul>
+                  <Link
+                    aria-current={null}
+                    className="nav__link"
+                    to="/login"
+                  >
+                    <a
+                      aria-current={null}
+                      className="nav__link"
+                      href="/login"
+                      onClick={[Function]}
+                    >
+                      Login
+                    </a>
+                  </Link>
+                </NavLink>
+              </li>
+              <li
+                className="nav__item"
+                key="nav-4"
+              >
+                <NavLink
+                  activeClassName="active"
+                  className="nav__link"
+                  to="/postjob"
+                >
+                  <Link
+                    aria-current={null}
+                    className="nav__link"
+                    to="/postjob"
+                  >
+                    <a
+                      aria-current={null}
+                      className="nav__link"
+                      href="/postjob"
+                      onClick={[Function]}
+                    >
+                      Post a Job!
+                    </a>
+                  </Link>
+                </NavLink>
+              </li>
+            </ul>
+          </div>
+        </div>
       </nav>
     </Nav>
   </Router>
