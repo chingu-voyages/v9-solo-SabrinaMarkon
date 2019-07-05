@@ -12,7 +12,7 @@ exports[`Testing Nav component it should match the Nav snapshot 1`] = `
         "entries": Array [
           Object {
             "hash": "",
-            "key": "5nv0nl",
+            "key": "7elljx",
             "pathname": "/",
             "search": "",
             "state": undefined,
@@ -26,7 +26,7 @@ exports[`Testing Nav component it should match the Nav snapshot 1`] = `
         "listen": [Function],
         "location": Object {
           "hash": "",
-          "key": "5nv0nl",
+          "key": "7elljx",
           "pathname": "/",
           "search": "",
           "state": undefined,
@@ -43,7 +43,7 @@ exports[`Testing Nav component it should match the Nav snapshot 1`] = `
         <ul>
           <li
             className="nav__item"
-            key="0"
+            key="nav-ss0"
           >
             <NavLink
               activeClassName="active"
@@ -71,7 +71,7 @@ exports[`Testing Nav component it should match the Nav snapshot 1`] = `
           </li>
           <li
             className="nav__item"
-            key="1"
+            key="nav-1"
           >
             <NavLink
               activeClassName="active"
@@ -97,7 +97,7 @@ exports[`Testing Nav component it should match the Nav snapshot 1`] = `
           </li>
           <li
             className="nav__item"
-            key="2"
+            key="nav-2"
           >
             <NavLink
               activeClassName="active"
@@ -123,7 +123,7 @@ exports[`Testing Nav component it should match the Nav snapshot 1`] = `
           </li>
           <li
             className="nav__item"
-            key="3"
+            key="nav-3"
           >
             <NavLink
               activeClassName="active"
@@ -149,7 +149,7 @@ exports[`Testing Nav component it should match the Nav snapshot 1`] = `
           </li>
           <li
             className="nav__item"
-            key="4"
+            key="nav-4"
           >
             <NavLink
               activeClassName="active"
