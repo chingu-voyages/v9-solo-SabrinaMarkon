@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { shallow } from 'enzyme';
+import Adapter from 'enzyme-adapter-react-16';
+import { shallow, configure } from 'enzyme';
+configure({adapter: new Adapter()});
 
 // components
 import App from '../containers/App';
@@ -35,6 +37,10 @@ describe('Testing main App component rendering', () => {
   
   it('should render 6 Route elements', () => {
     expect(wrapper.find('Route')).toHaveLength(6);
+  });
+
+  it('should render 1 child MainPageContent component', () => {
+    expect(wrapper.find('MainPageContent')).toHaveLength(1);
   });
 
   it('should render 1 child Footer component', () => {

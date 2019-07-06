@@ -30,6 +30,9 @@ export default function Nav() {
                 <li key="nav-4" className="nav__item">
                   <NavLink className="nav__link" activeClassName="active" to="/postjob">Post a Job!</NavLink>
                 </li>
+                <li key="nav-5" className="nav__item">
+                  <a href="#section4">Contact</a>
+                </li>
               </ul>
             </div>
           </div>

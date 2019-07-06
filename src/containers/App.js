@@ -8,6 +8,7 @@ import NotFound from '../components/NotFound';
 
 import Nav from '../containers/Nav';
 import Header from '../components/Header';
+import MainPageContent from '../containers/MainPageContent';
 import Footer from '../components/Footer';
 
 export default class App extends Component {
@@ -16,7 +17,6 @@ export default class App extends Component {
     return (
         <BrowserRouter>
             <Nav />
-            <Header />
             <Switch>
               <Route exact path="/" />
               <Route exact path="/howitworks" component={HowItWorks} />
@@ -25,6 +25,8 @@ export default class App extends Component {
               <Route exact path="/postjob" component={PostJob} />
               <Route component={NotFound} />
             </Switch>
+            <Header />
+            <MainPageContent />
             <Footer />
         </BrowserRouter>
     )

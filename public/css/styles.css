@@ -35,10 +35,24 @@ p{
   margin: 0;
 }
 a:hover { text-decoration: none; }
+.nav__link { 
+  text-decoration: none;
+  background: #383E4C none repeat scroll 0 0;
+  border: 1px solid #646d7c;
+  color: #fff;
+  font-size: 20px;
+  padding: 5px 20px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.nav__link:focus,
+.nav__link:hover {
+  background: #49505F;
+}
 
 /* Start Main Menu */
 header {
-  /*background-image: url("%PUBLIC_URL%/images/bg-1.jpg");
+  /*background-image: url("../images/bg-1.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;*/
@@ -78,7 +92,7 @@ z-index: 999;
 }
 .header-content  h1 {
   color: #fff;
-  font-size: 70px;
+  font-size: 100px;
   text-transform: uppercase;
   text-shadow: 2px 2px #000;
 }
@@ -181,7 +195,7 @@ div#service-area-main {
   margin:65px 0px 85px;
 }
 /*section#services-area {
-  background-image: url("%PUBLIC_URL%/images/bg-2.jpg");
+  background-image: url("../images/bg-2.jpg");
   background-position: center center;
   background-size: cover;
   background-attachment: fixed;
@@ -239,7 +253,7 @@ h2 {
 
 /* Start Contact CSS */
 /*section#contact-area {
-  background-image: url("%PUBLIC_URL%/images/bg-3.jpg");
+  background-image: url("../images/bg-3.jpg");
   background-position: center center;
   background-size: cover;  
   background-attachment: fixed; 
@@ -312,7 +326,7 @@ input {
 /* Scrool To top */
 /* Image style */
 #scrollUp {
-    background-image: url("%PUBLIC_URL%/images/top.png");
+    background-image: url("../images/top.png");
     bottom: 20px;
     right: 20px;
     width: 38px;    /* Width of image */
@@ -402,6 +416,26 @@ input {
 
 .navbar .navbar-collapse {
     text-align: center;
+}
+
+/*************made with love :3s******************/
+#madewithlove {
+  font-size: 1.2rem;
+}
+#madewithlove-name {
+  /* font-family: 'Roboto', sans-serif !important; */
+}
+#madewithlove-name, #madewithlove-heart {
+  text-shadow: 0 0 0;
+  color: #d34182;
+}
+#madewithlove-name:hover {
+  text-decoration: none;
+  color: #fff;
+}
+#madewithlove-heart:hover {
+  text-shadow: 1px 1px 1px #fff, -1px -1px 1px #414143;
+  color: #fff; 
 }
 
 /* Media Queries

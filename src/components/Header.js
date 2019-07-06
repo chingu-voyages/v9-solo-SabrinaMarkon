@@ -10,7 +10,7 @@ export default function Header() {
 						<div className="col-sm-12 text-center">
 							<div className="header-content">
 								<h1>Hire-A-Team</h1>
-								<h4>to Build Your Dream!</h4>
+								<h4>...Build Your Dream!</h4>
 							</div>
 						</div>
 					</div>
