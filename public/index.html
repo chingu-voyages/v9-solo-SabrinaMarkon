@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" 
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
+    <link rel="stylesheet" href="%PUBLIC_URL%/css/bootstrap.min.css">
+    <link rel="stylesheet" href="%PUBLIC_URL%/css/styles.scss">
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <title>Hire-A-Team to Build Your Dream!</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <script src="%PUBLIC_URL%/js/jquery-1.11.2.min.js"></script>
+    <script src="%PUBLIC_URL%/js/jquery.scrollUp.min.js"></script> <!-- https://github.com/markgoodyear/scrollup -->
+    <script src="%PUBLIC_URL%/js/jquery.singlePageNav.min.js"></script> <!-- https://github.com/ChrisWojcik/single-page-nav -->
+    <script src="%PUBLIC_URL%/js/parallax.js-1.3.1/parallax.js"></script> <!-- http://pixelcog.github.io/parallax.js/ -->
+    <script>
+      // HTML document is loaded. DOM is ready.
+      $(function() {  
+
+        // Parallax
+        $('.intro-section').parallax({
+          imageSrc: '%PUBLIC_URL%/images/bg-1.jpg',
+          speed: 0.2
+        });
+        $('.services-section').parallax({
+          imageSrc: '%PUBLIC_URL%/images/bg-2.jpg',
+          speed: 0.2
+        });
+        $('.contact-section').parallax({
+          imageSrc: '%PUBLIC_URL%/images/bg-3.jpg',
+          speed: 0.2
+        });    
+
+        // jQuery Scroll Up / Back To Top Image
+        $.scrollUp({
+                scrollName: 'scrollUp',      // Element ID
+            scrollDistance: 300,         // Distance from top/bottom before showing element (px)
+            scrollFrom: 'top',           // 'top' or 'bottom'
+            scrollSpeed: 1000,            // Speed back to top (ms)
+            easingType: 'linear',        // Scroll to top easing (see http://easings.net/)
+            animation: 'fade',           // Fade, slide, none
+            animationSpeed: 300,         // Animation speed (ms)		        
+            scrollText: '', // Text for element, can contain HTML		        
+            scrollImg: true            // Set true to use image		        
+            });
+
+        // ScrollUp Placement
+        $( window ).on( 'scroll', function() {
+
+            // If the height of the document less the height of the document is the same as the
+            // distance the window has scrolled from the top...
+            if ( $( document ).height() - $( window ).height() === $( window ).scrollTop() ) {
+
+                // Adjust the scrollUp image so that it's a few pixels above the footer
+                $('#scrollUp').css( 'bottom', '80px' );
+
+            } else {      
+                // Otherwise, leave set it to its default value.
+                $('#scrollUp').css( 'bottom', '30px' );        
+            }
+        });
+
+        $('.single-page-nav').singlePageNav({
+          offset: $('.single-page-nav').outerHeight(),
+          speed: 1500,
+          filter: ':not(.external)',
+          updateHash: true
+        });
+
+        $('.navbar-toggle').click(function(){
+          $('.single-page-nav').toggleClass('show');
+        });
+
+        $('.single-page-nav a').click(function(){
+          $('.single-page-nav').removeClass('show');
+        });
+      
+      }); 
+    </script>
+  </body>
+</html>
