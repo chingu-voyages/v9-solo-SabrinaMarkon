@@ -12,8 +12,8 @@ export default function Header() {
 								<h1>Hire-A-Team</h1>
 								<h4>...Build Your Dream!</h4>
 								<div className="center-block text-center">
-									<NavLink className="btn btn-success btn-lg margin-trbl" to="/signup">Post a Job!</NavLink>
-									<NavLink className="btn btn-success btn-lg margin-trbl" to="/postjob">Create a Team!</NavLink>
+									<NavLink className="btn btn-custom btn-lg nav__link margin-tblr padding-tblr" to="/signup">Post a Job!</NavLink>
+									<NavLink className="btn btn-custom btn-lg nav__link margin-tblr padding-tblr" to="/postjob">Create a Team!</NavLink>
         				</div>
 							</div>
 						</div>

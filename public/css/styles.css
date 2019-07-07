@@ -50,15 +50,18 @@ a:hover { text-decoration: none; }
   background: #49505F;
 }
 
-.margin-trbl {
+.margin-tblr {
   margin: 20px 10px;
+}
+.padding-tblr {
+  padding: 15px;
 }
 
 /* Start Main Menu */
 header {
-  /*background-image: url("../images/bg-1.jpg");
+  /*background-image: url("../images/huskyteam.jpg");
   background-position: center center;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat;s
   background-size: cover;*/
   padding: 235px 0;
   /*margin-bottom: 60px;*/
@@ -93,6 +96,18 @@ z-index: 999;
 .main-menu ul li a:focus,
 .main-menu ul li a:hover {
   background: #49505F;
+}
+/* call to action header buttons */
+.btn-custom {
+  color: #fff;
+  border: 1px solid #646d7c;
+  border-radius: 0;
+  box-shadow: 1px 1px #000;
+}
+.btn-custom:hover {
+  color: #fff;
+  border: 1px solid #646d7c;
+  box-shadow: -1px -1px #fff;
 }
 .header-content  h1 {
   color: #fff;
