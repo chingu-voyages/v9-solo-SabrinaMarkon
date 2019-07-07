@@ -1,6 +1,8 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
+import ParticleContainer from '../containers/ParticleContainer';
+
 export default function Header() {
   return (
     <div id="section1">
@@ -12,13 +14,14 @@ export default function Header() {
 								<h1>Hire-A-Team</h1>
 								<h4>...Build Your Dream!</h4>
 								<div className="center-block text-center">
-									<NavLink className="btn btn-custom btn-lg nav__link margin-tblr padding-tblr" to="/signup">Post a Job!</NavLink>
-									<NavLink className="btn btn-custom btn-lg nav__link margin-tblr padding-tblr" to="/postjob">Create a Team!</NavLink>
+									<NavLink className="btn btn-custom btn-lg nav__link margin-tblr padding-tblr" activeClassName="active" to="/signup">Post a Job!</NavLink>
+									<NavLink className="btn btn-custom btn-lg nav__link margin-tblr padding-tblr" activeClassName="active" to="/postjob">Create a Team!</NavLink>
         				</div>
 							</div>
 						</div>
 					</div>
 				</div>
+				<ParticleContainer />
 			</header>
 		</div>
   )
