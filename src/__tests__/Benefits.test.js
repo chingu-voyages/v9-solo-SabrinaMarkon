@@ -12,6 +12,7 @@ beforeEach(() => {
 
 describe('Testing Benefits component', () => {
   it('should render a div with the container_inner class', () => {
-    expect(wrapper.find('div').prop('id')).toEqual('section2');
+    // expect(wrapper.find('div').prop('id')).toEqual('section2');
+    expect(wrapper.find('#section2').exists()).to.equal(true);
   });
 });

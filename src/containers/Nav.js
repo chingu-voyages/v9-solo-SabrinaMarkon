@@ -22,13 +22,13 @@ export default function Nav() {
                   <NavLink className="nav__link" exact activeClassName="active" to="/howitworks">How It Works</NavLink>
                 </li>
                 <li key="nav-2" className="nav__item">
-                  <NavLink className="nav__link" exact activeClassName="active" to="/signup">Signup</NavLink>
-                </li>
-                <li key="nav-3" className="nav__item">
-                  <NavLink className="nav__link" exact activeClassName="active" to="/login">Login</NavLink>
+                  <NavLink className="nav__link" exact activeClassName="active" to="/signup">Create a Team!</NavLink>
                 </li>
                 <li key="nav-4" className="nav__item">
                   <NavLink className="nav__link" activeClassName="active" to="/postjob">Post a Job!</NavLink>
+                </li>
+                <li key="nav-3" className="nav__item">
+                  <NavLink className="nav__link" exact activeClassName="active" to="/login">Login</NavLink>
                 </li>
                 <li key="nav-5" className="nav__item">
                   <a href="#section4">Contact</a>

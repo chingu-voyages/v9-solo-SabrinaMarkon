@@ -12,6 +12,6 @@ beforeEach(() => {
 
 describe('Testing Contact component', () => {
   it('should render a div with the container_inner class', () => {
-    expect(wrapper.find('div').prop('id')).toEqual('section4');
+    expect(wrapper.find('#section4').exists()).to.equal(true);
   });
 });
