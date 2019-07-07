@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 export default function Header() {
   return (
@@ -11,8 +12,8 @@ export default function Header() {
 								<h1>Hire-A-Team</h1>
 								<h4>...Build Your Dream!</h4>
 								<div className="center-block text-center">
-									<button type="submit" className="btn btn-success btn-lg">Post a Job!</button>
-									<button type="submit" className="btn btn-success btn-lg">Create a Team!</button>
+									<NavLink className="btn btn-success btn-lg margin-trbl" to="/signup">Post a Job!</NavLink>
+									<NavLink className="btn btn-success btn-lg margin-trbl" to="/postjob">Create a Team!</NavLink>
         				</div>
 							</div>
 						</div>

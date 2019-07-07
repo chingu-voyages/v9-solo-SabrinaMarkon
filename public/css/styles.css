@@ -50,6 +50,10 @@ a:hover { text-decoration: none; }
   background: #49505F;
 }
 
+.margin-trbl {
+  margin: 20px 10px;
+}
+
 /* Start Main Menu */
 header {
   /*background-image: url("../images/bg-1.jpg");
